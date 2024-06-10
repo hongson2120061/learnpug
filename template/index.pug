@@ -1,0 +1,14 @@
+doctype html
+html    
+    head 
+        title Đây là trang chủ
+    body 
+        p Nội dung chính ở đây 
+        -
+            var listuser =[
+                "Nguyễn Thị Mỹ Tiên",
+                "PhùnG Lê Ngọc Thảo",
+                "Trần Thị Mai Thy"
+            ]
+        each item,index in listuser
+            li #{index}. #{item}
